@@ -1,0 +1,13 @@
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.snow.css';
+
+.ql-editor {
+  background: #fff;
+}
+
+.ql-toolbar {
+  background: #f5f5f5;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDLHVDQUF1QztBQUN2QyxxQ0FBcUM7O0FBRXJDO0VBQ0UsaUJBQWlCO0NBQ2xCOztBQUVEO0VBQ0Usb0JBQW9CO0NBQ3JCIiwiZmlsZSI6InN0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0ICd+cXVpbGwvZGlzdC9xdWlsbC5jb3JlLmNzcyc7XHJcbkBpbXBvcnQgJ35xdWlsbC9kaXN0L3F1aWxsLmJ1YmJsZS5jc3MnO1xyXG5AaW1wb3J0ICd+cXVpbGwvZGlzdC9xdWlsbC5zbm93LmNzcyc7XHJcblxyXG4ucWwtZWRpdG9yIHtcclxuICBiYWNrZ3JvdW5kOiAjZmZmO1xyXG59XHJcblxyXG4ucWwtdG9vbGJhciB7XHJcbiAgYmFja2dyb3VuZDogI2Y1ZjVmNTtcclxufVxyXG4iXX0= */

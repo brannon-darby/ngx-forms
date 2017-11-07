@@ -5,15 +5,8 @@
     "module": "es2015",
     "baseUrl": ".",
     "paths": {
-      "@ngx-forms/*": [
-        "libs/*"
-      ]
+      "@ngx-plus/*": ["libs/*"]
     }
   },
-  "exclude": [
-    "**/*.spec.ts",
-    "**/*.e2e-spec.ts",
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["**/*.spec.ts", "**/*.e2e-spec.ts", "node_modules", "tmp"]
 }

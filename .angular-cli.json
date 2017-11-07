@@ -1,9 +1,36 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "ngx-forms"
+    "name": "@ngx-plus/ngx-forms"
   },
-  "apps": [],
+  "apps": [
+    {
+      "name": "demo",
+      "root": "apps\\demo\\src",
+      "outDir": "dist/apps/demo",
+      "assets": ["assets", "favicon.ico"],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "../../../test.js",
+      "tsconfig": "../../../tsconfig.app.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
+      "prefix": "app",
+      "styles": ["styles.scss"],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    },
+    {
+      "name": "ngx-forms",
+      "root": "libs\\ngx-forms\\src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    }
+  ],
   "e2e": {
     "protractor": {
       "config": "./protractor.conf.js"
@@ -31,7 +58,7 @@
       "postGenerate": "npm run format",
       "newProject": ["app", "lib"]
     },
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }
